@@ -209,7 +209,6 @@ footer{margin-top:14px;color:rgba(255,255,255,0.45);font-size:0.86rem}
       <div class="controls">
         <button id="surpriseBtn">Another message</button>
         <button onclick="playSong()">Play Song</button>
-        <button>My Question</button>
         <button id="loveBtn">Love</button>
       </div>
       <footer>Happy birthday!!</footer>
@@ -265,10 +264,7 @@ document.getElementById('surpriseBtn').addEventListener('click',()=>{
 });
 
 function playSong(){document.getElementById("mySong").play();}
-document.getElementById('loveBtn').addEventListener('click',()=>{window.location.href='meme.html';})
-document.querySelector('button:nth-child(3)').addEventListener('click', function() {
-    window.open('https://forms.gle/NK3LMCBYFLVt6vfv5', '_blank');
-});
+document.getElementById('loveBtn').addEventListener('click',()=>{window.location.href='meme.html';});
 
 function spawnHearts(){
   for(let i=0;i<15;i++){
