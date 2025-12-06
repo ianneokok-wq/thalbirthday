@@ -209,6 +209,7 @@ footer{margin-top:14px;color:rgba(255,255,255,0.45);font-size:0.86rem}
       <div class="controls">
         <button id="surpriseBtn">Another message</button>
         <button onclick="playSong()">Play Song</button>
+        <button id="kissBtn">Flower!</button>
         <button id="loveBtn">Love</button>
       </div>
       <footer>Happy birthday!!</footer>
@@ -265,6 +266,7 @@ document.getElementById('surpriseBtn').addEventListener('click',()=>{
 
 function playSong(){document.getElementById("mySong").play();}
 document.getElementById('loveBtn').addEventListener('click',()=>{window.location.href='meme.html';});
+document.getElementById('kissBtn').addEventListener('click',()=>{window.location.href='flower.html';});
 
 function spawnHearts(){
   for(let i=0;i<15;i++){
